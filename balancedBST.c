@@ -23,7 +23,7 @@ struct node* search(int data)
     {
         if(current != NULL)
         {
-            printf("%d ", current->datat);
+            printf("%d ", current->data);
 
             //going to left tree
             if(current->data > data)
